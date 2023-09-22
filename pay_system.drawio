@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T10:42:50.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JXRLPWOT00KN4_OnBG5P" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T10:54:18.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qho9FSLeGOSA52EBkEdI" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="0JQ686lqPjQ36ibhbS3w">
-    <mxGraphModel dx="2772" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2574" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +127,16 @@
           <mxGeometry x="1400" y="1000" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-54" value="Существующие энд поинты для определения статуса пользователя, и общая информация о тарифах" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="50" width="320" height="30" as="geometry" />
+          <mxGeometry x="1630" y="50" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bqGs3hgugpt45MELi2YD-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="bqGs3hgugpt45MELi2YD-55" value="&lt;b&gt;​/profiles​/tariffs​/&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/profiles/tariffs/&amp;lt;slug:slug&amp;gt;/&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;Информация о всех существующих тарифах.&lt;br&gt;Модель -&amp;nbsp;Tariff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="140" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bqGs3hgugpt45MELi2YD-56" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;​/profiles​/tariffs​/me/&amp;nbsp;&lt;/b&gt;&lt;br&gt;текущий тариф пользователя&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="150" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bqGs3hgugpt45MELi2YD-57" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;profiles/tariffs/me/features/&lt;/b&gt;&lt;br&gt;список доступных фич&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="150" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
