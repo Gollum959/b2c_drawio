@@ -1,35 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T16:32:18.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Y3r7z0hec8N-f5Mz2ICF" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T17:01:29.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LIG-CrK64v-lMfqZP-HV" version="21.8.0" type="github">
   <diagram name="Страница — 1" id="0JQ686lqPjQ36ibhbS3w">
-    <mxGraphModel dx="6007" dy="2873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5149" dy="2463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bqGs3hgugpt45MELi2YD-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Существующие эндпоинты и логика прохождения оплаты&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="40" width="280" height="30" as="geometry" />
+          <mxGeometry x="550" y="160" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-86" target="bqGs3hgugpt45MELi2YD-82" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="1694" />
-              <mxPoint x="380" y="1584" />
-              <mxPoint x="505" y="1584" />
+              <mxPoint x="640" y="1814" />
+              <mxPoint x="640" y="1704" />
+              <mxPoint x="765" y="1704" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-5" value="Инициализирущий платеж.&amp;nbsp; Отправляется клиентом на&amp;nbsp;endpoint: /payment/webpay/" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="100" width="270" height="130" as="geometry" />
+          <mxGeometry x="560" y="220" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-7" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;wsb_test&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;integer&lt;/div&gt;&lt;div&gt;wsb_return_url*&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string&lt;/div&gt;&lt;div&gt;wsb_cancel_return_url*&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string&lt;/div&gt;&lt;div&gt;type&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="bqGs3hgugpt45MELi2YD-5" vertex="1">
           <mxGeometry y="30" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.456;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bqGs3hgugpt45MELi2YD-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="140" as="sourcePoint" />
-            <mxPoint x="423" y="320" as="targetPoint" />
+            <mxPoint x="790" y="260" as="sourcePoint" />
+            <mxPoint x="683" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-10" value="Формируется запрос для отправки на web pay" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="320" width="270" height="180" as="geometry" />
+          <mxGeometry x="560" y="440" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-11" value="Вся необходимая информация берется из модели авторизованного&amp;nbsp;пользователя (телефон, адрес, емаил)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="bqGs3hgugpt45MELi2YD-10" vertex="1">
           <mxGeometry y="30" width="270" height="60" as="geometry" />
@@ -44,13 +44,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-14" value="Model: UserProfile" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="100" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="360" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-19" target="bqGs3hgugpt45MELi2YD-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-19" value="На текущий момент:&lt;br&gt;&lt;br&gt;вид подписки: - Название, срок в месяцах, стоимость за месяц, общая стоймость&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&#39;monthly&#39;: - [&#39;Абонентская плата&#39;], [1], [Decimal(&#39;45.00&#39;)], Decimal(&#39;45.00&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;quarterly&#39;: - [&#39;Абонентская плата&#39;], [3], [Decimal(&#39;35.00&#39;)], Decimal(&#39;105.00&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;yearly&#39;: - [&#39;Абонентская плата&#39;], [12], [Decimal(&#39;25.00&#39;)], Decimal(&#39;300.00&#39;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="660" y="320" width="430" height="160" as="geometry" />
+          <mxGeometry x="920" y="440" width="430" height="160" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bqGs3hgugpt45MELi2YD-21" target="bqGs3hgugpt45MELi2YD-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,30 +62,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-21" value="если сформированный&lt;br&gt;запрос проходит валидацию" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="327.5" y="540" width="215" height="100" as="geometry" />
+          <mxGeometry x="587.5" y="660" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bqGs3hgugpt45MELi2YD-25" target="bqGs3hgugpt45MELi2YD-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-25" value="Создается запись в базе данных. Model:&amp;nbsp;WebPay" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="332.5" y="700" width="205" height="60" as="geometry" />
+          <mxGeometry x="592.5" y="820" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-28" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="390" y="650" width="60" height="30" as="geometry" />
+          <mxGeometry x="650" y="770" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-29" target="bqGs3hgugpt45MELi2YD-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-29" value="сформированный запрос отправляется на ендпоинт webpay - WSB_API_URL/payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="306.25" y="790" width="257.5" height="60" as="geometry" />
+          <mxGeometry x="566.25" y="910" width="257.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-31" target="bqGs3hgugpt45MELi2YD-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="820" as="targetPoint" />
+            <mxPoint x="560" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-31" value="WSB_API_URL прописывается в env файле" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="790" width="190" height="60" as="geometry" />
+          <mxGeometry x="300" y="910" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-34" target="bqGs3hgugpt45MELi2YD-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -94,64 +94,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-34" value="Валидация данных на&lt;br&gt;стороне webpay" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="337.5" y="890" width="195" height="70" as="geometry" />
+          <mxGeometry x="597.5" y="1010" width="195" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-35" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="560" width="210" height="60" as="geometry" />
+          <mxGeometry x="910" y="680" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-37" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="563.75" y="560" width="60" height="30" as="geometry" />
+          <mxGeometry x="823.75" y="680" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-40" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="895" width="210" height="60" as="geometry" />
+          <mxGeometry x="910" y="1015" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-42" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="563.75" y="900" width="60" height="30" as="geometry" />
+          <mxGeometry x="823.75" y="1020" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bqGs3hgugpt45MELi2YD-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990.0000000000005" y="1050" as="targetPoint" />
+            <mxPoint x="1250.0000000000005" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-45" value="Клиенту отправляется ссылка - редирект на серфис webpay" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="306.25" y="1020" width="257.5" height="60" as="geometry" />
+          <mxGeometry x="566.25" y="1140" width="257.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-48" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="390" y="970" width="60" height="30" as="geometry" />
+          <mxGeometry x="650" y="1090" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-50" target="bqGs3hgugpt45MELi2YD-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1150" y="730" />
+              <mxPoint x="1410" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-50" value="на сервере существуют ендпоинт -&amp;nbsp;webpay/notify/, на который webpay присылает свой ответ со всеми необходимыми данными о платеже, исходя из этих данных вносятся изменения в модель WebPay, в модель UserProfile вноситься значение&amp;nbsp;&amp;nbsp;wsb_recurring_token&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;для привязки карточки. Так же в моделе&amp;nbsp;&lt;/span&gt;UserProfile изменяется дата&amp;nbsp;Expire datetime of worker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="1000" width="360" height="100" as="geometry" />
+          <mxGeometry x="1250" y="1120" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-52" target="bqGs3hgugpt45MELi2YD-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-52" value="&lt;b&gt;Expire datetime of worker&lt;/b&gt; данное значение на текущий момент является основным критерием для понимания текущего тарифа(из двух) и доступных фич.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1000" width="260" height="100" as="geometry" />
+          <mxGeometry x="1660" y="1120" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-54" value="Существующие энд поинты для определения статуса пользователя, и общая информация о тарифах" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1340" width="320" height="30" as="geometry" />
+          <mxGeometry x="710" y="1460" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-55" value="&lt;b&gt;​/profiles​/tariffs​/&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;/profiles/tariffs/&amp;lt;slug:slug&amp;gt;/&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;Информация о всех существующих тарифах.&lt;br&gt;Модель -&amp;nbsp;Tariff" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1430" width="260" height="80" as="geometry" />
+          <mxGeometry x="490" y="1550" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-56" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;​/profiles​/tariffs​/me/&amp;nbsp;&lt;/b&gt;&lt;br&gt;текущий тариф пользователя&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1440" width="210" height="60" as="geometry" />
+          <mxGeometry x="780" y="1560" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-57" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;profiles/tariffs/me/features/&lt;/b&gt;&lt;br&gt;список доступных фич&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="1440" width="200" height="60" as="geometry" />
+          <mxGeometry x="1030" y="1560" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-58" value="Модели созданые для будущих тарифов и фич" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1530" width="420" height="30" as="geometry" />
+          <mxGeometry x="640" y="1650" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-82" value="Tariff(Тариф)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1604" width="210" height="270" as="geometry" />
+          <mxGeometry x="660" y="1724" width="210" height="270" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bqGs3hgugpt45MELi2YD-82" vertex="1">
           <mxGeometry y="30" width="210" height="40" as="geometry" />
@@ -232,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-101" value="TariffFeature(Фичи)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1604" width="210" height="190" as="geometry" />
+          <mxGeometry x="960" y="1724" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bqGs3hgugpt45MELi2YD-101" vertex="1">
           <mxGeometry y="30" width="210" height="40" as="geometry" />
@@ -287,7 +287,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-133" value="FeatureOption(Опции фич)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1604" width="210" height="150" as="geometry" />
+          <mxGeometry x="1260" y="1724" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bqGs3hgugpt45MELi2YD-133" vertex="1">
           <mxGeometry y="30" width="210" height="40" as="geometry" />
@@ -329,7 +329,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-159" value="TariffOption(Опции фич)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1604" width="210" height="150" as="geometry" />
+          <mxGeometry x="360" y="1724" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-160" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bqGs3hgugpt45MELi2YD-159" vertex="1">
           <mxGeometry y="30" width="210" height="40" as="geometry" />
@@ -371,64 +371,64 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-175" value="One to many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1562" width="130" height="30" as="geometry" />
+          <mxGeometry x="640" y="1682" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-177" value="Many to many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1567" width="130" height="30" as="geometry" />
+          <mxGeometry x="470" y="1687" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-178" value="Many to many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1558" width="130" height="30" as="geometry" />
+          <mxGeometry x="930" y="1678" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-179" value="Many to many" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1558" width="130" height="30" as="geometry" />
+          <mxGeometry x="1230" y="1678" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-187" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-89" target="bqGs3hgugpt45MELi2YD-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="1730" as="sourcePoint" />
-            <mxPoint x="690" y="1680" as="targetPoint" />
+            <mxPoint x="900" y="1850" as="sourcePoint" />
+            <mxPoint x="950" y="1800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="1734" />
-              <mxPoint x="650" y="1580" />
-              <mxPoint x="805" y="1580" />
+              <mxPoint x="910" y="1854" />
+              <mxPoint x="910" y="1700" />
+              <mxPoint x="1065" y="1700" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-188" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-105" target="bqGs3hgugpt45MELi2YD-133" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="1730" as="sourcePoint" />
-            <mxPoint x="690" y="1680" as="targetPoint" />
+            <mxPoint x="900" y="1850" as="sourcePoint" />
+            <mxPoint x="950" y="1800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="960" y="1694" />
-              <mxPoint x="960" y="1580" />
-              <mxPoint x="1105" y="1580" />
+              <mxPoint x="1220" y="1814" />
+              <mxPoint x="1220" y="1700" />
+              <mxPoint x="1365" y="1700" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="bqGs3hgugpt45MELi2YD-189" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bqGs3hgugpt45MELi2YD-92" target="bqGs3hgugpt45MELi2YD-159" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="1710" as="sourcePoint" />
-            <mxPoint x="500" y="1660" as="targetPoint" />
+            <mxPoint x="710" y="1830" as="sourcePoint" />
+            <mxPoint x="760" y="1780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="1774" />
-              <mxPoint x="350" y="1590" />
-              <mxPoint x="205" y="1590" />
+              <mxPoint x="610" y="1894" />
+              <mxPoint x="610" y="1710" />
+              <mxPoint x="465" y="1710" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-1" value="CoF платеж.&amp;nbsp; Отправляется клиентом на&amp;nbsp;endpoint: /payment/cof/" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="110" width="270" height="150" as="geometry" />
+          <mxGeometry x="2120" y="230" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-2" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;wsb_test&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;integer&lt;/div&gt;&lt;div&gt;wsb_return_url*&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string&lt;/div&gt;&lt;div&gt;wsb_cancel_return_url*&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string&lt;/div&gt;&lt;div&gt;type&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;string (&lt;b&gt;это тип подписки месячная квартальная, годовая) информация хранится в профиле пользователя.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9ObJYXWExvs5IfzbNgQo-1">
           <mxGeometry y="30" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.456;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2090" y="150" as="sourcePoint" />
-            <mxPoint x="1983" y="330" as="targetPoint" />
+            <mxPoint x="2350" y="270" as="sourcePoint" />
+            <mxPoint x="2243" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-4" value="Формируется запрос для отправки на web pay" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="330" width="270" height="180" as="geometry" />
+          <mxGeometry x="2120" y="450" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-5" value="Вся необходимая информация берется из модели&amp;nbsp;авторизованного&amp;nbsp;пользователя (телефон, адрес, емаил).&amp;nbsp;&lt;b&gt;Плюс добавляется&amp;nbsp;&lt;span style=&quot;background-color: white; text-align: justify;&quot;&gt;wsb_recurring_token&lt;/span&gt;&lt;/b&gt;&lt;p style=&quot;margin-top:0in;margin-right:0in;margin-bottom:0in;&lt;br/&gt;margin-left:.5in;text-align:justify;background:white;vertical-align:baseline&quot; class=&quot;rtejustify&quot;&gt;&lt;span style=&quot;font-size:10.5pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;color:#5F6C73;&lt;br/&gt;mso-ansi-language:EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9ObJYXWExvs5IfzbNgQo-4">
           <mxGeometry y="30" width="270" height="60" as="geometry" />
@@ -443,13 +443,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-9" value="Model: UserProfile" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="350" width="80" height="80" as="geometry" />
+          <mxGeometry x="1915" y="470" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-11" target="9ObJYXWExvs5IfzbNgQo-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-11" value="На текущий момент:&lt;br&gt;&lt;br&gt;вид подписки: - Название, срок в месяцах, стоимость за месяц, общая стоймость&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&#39;monthly&#39;: - [&#39;Абонентская плата&#39;], [1], [Decimal(&#39;45.00&#39;)], Decimal(&#39;45.00&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;quarterly&#39;: - [&#39;Абонентская плата&#39;], [3], [Decimal(&#39;35.00&#39;)], Decimal(&#39;105.00&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;yearly&#39;: - [&#39;Абонентская плата&#39;], [12], [Decimal(&#39;25.00&#39;)], Decimal(&#39;300.00&#39;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="370" width="430" height="160" as="geometry" />
+          <mxGeometry x="2530" y="490" width="430" height="160" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-15" target="9ObJYXWExvs5IfzbNgQo-7">
           <mxGeometry relative="1" as="geometry" />
@@ -461,30 +461,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-15" value="если сформированный&lt;br&gt;запрос проходит валидацию" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1887.5" y="550" width="215" height="100" as="geometry" />
+          <mxGeometry x="2147.5" y="670" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-17" target="9ObJYXWExvs5IfzbNgQo-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-17" value="Создается запись в базе данных. Model:&amp;nbsp;WebPay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1892.5" y="710" width="205" height="60" as="geometry" />
+          <mxGeometry x="2152.5" y="830" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-18" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="660" width="60" height="30" as="geometry" />
+          <mxGeometry x="2210" y="780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-20" target="9ObJYXWExvs5IfzbNgQo-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-20" value="сформированный запрос отправляется на ендпоинт webpay - WSB_API_URL/payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1866.25" y="800" width="257.5" height="60" as="geometry" />
+          <mxGeometry x="2126.25" y="920" width="257.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-22" target="9ObJYXWExvs5IfzbNgQo-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1860" y="830" as="targetPoint" />
+            <mxPoint x="2120" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-22" value="WSB_API_URL прописывается в env файле" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="800" width="190" height="60" as="geometry" />
+          <mxGeometry x="1860" y="920" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-25" target="9ObJYXWExvs5IfzbNgQo-28">
           <mxGeometry relative="1" as="geometry" />
@@ -492,46 +492,121 @@
         <mxCell id="9ObJYXWExvs5IfzbNgQo-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-25" target="9ObJYXWExvs5IfzbNgQo-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1995" y="1060" />
+              <mxPoint x="2255" y="1180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-25" value="Валидация данных на&lt;br&gt;стороне webpay" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1897.5" y="900" width="195" height="70" as="geometry" />
+          <mxGeometry x="2157.5" y="1020" width="195" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-26" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="570" width="210" height="60" as="geometry" />
+          <mxGeometry x="2470" y="690" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-27" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2123.75" y="570" width="60" height="30" as="geometry" />
+          <mxGeometry x="2383.75" y="690" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-28" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="905" width="210" height="60" as="geometry" />
+          <mxGeometry x="2470" y="1025" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-29" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="2123.75" y="910" width="60" height="30" as="geometry" />
+          <mxGeometry x="2383.75" y="1030" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-32" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="1952" y="1000" width="60" height="30" as="geometry" />
+          <mxGeometry x="2212" y="1120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-34" target="9ObJYXWExvs5IfzbNgQo-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2710" y="740" />
+              <mxPoint x="2970" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-34" value="на сервере существуют ендпоинт -&amp;nbsp;webpay/notify/, на который webpay присылает свой ответ со всеми необходимыми данными о платеже, исходя из этих данных вносятся изменения в модель WebPay.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Так же в моделе&amp;nbsp;&lt;/span&gt;UserProfile изменяется дата&amp;nbsp;Expire datetime of worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="1010" width="360" height="100" as="geometry" />
+          <mxGeometry x="2810" y="1130" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-36" target="9ObJYXWExvs5IfzbNgQo-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-36" value="&lt;b&gt;Expire datetime of worker&lt;/b&gt; данное значение на текущий момент является основным критерием для понимания текущего тарифа(из двух) и доступных фич.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="1010" width="260" height="100" as="geometry" />
+          <mxGeometry x="3220" y="1130" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9ObJYXWExvs5IfzbNgQo-40" value="Попытка снятия денег" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2097.5" y="1035" width="360" height="30" as="geometry" />
+          <mxGeometry x="2357.5" y="1155" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-41" target="9ObJYXWExvs5IfzbNgQo-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-41" value="Смена подписки&amp;nbsp;&lt;br&gt;​/payment​/webpay​/change-subscription​/" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="230" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-42" value="&lt;div&gt;ChangeSubscription{&lt;/div&gt;&lt;div&gt;wsb_subscription: string&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Enum: [ test, monthly, quarterly, yearly ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9ObJYXWExvs5IfzbNgQo-41">
+          <mxGeometry y="30" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-43" target="9ObJYXWExvs5IfzbNgQo-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-43" target="9ObJYXWExvs5IfzbNgQo-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-43" value="Валидация" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="3330" y="450" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-45" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3570" y="465" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-47" value="Изменяется поле&amp;nbsp;wsb_subscription&lt;br&gt;в профиле авторизированного пользователя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3302.5" y="620" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-50" target="9ObJYXWExvs5IfzbNgQo-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-50" value="Удаление привязанной карты&lt;br&gt;​/payment​/webpay​/change-subscription​/" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="230" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-51" value="&lt;div&gt;Пустой пост запрос от авторизированного пользователя&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9ObJYXWExvs5IfzbNgQo-50">
+          <mxGeometry y="30" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-57" target="9ObJYXWExvs5IfzbNgQo-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-57" value="Формируется запрос для отправки на web pay" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="360" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-58" value="Вся необходимая информация берется из модели&amp;nbsp;авторизованного&amp;nbsp;пользователя&lt;p style=&quot;margin-top:0in;margin-right:0in;margin-bottom:0in;&lt;br/&gt;margin-left:.5in;text-align:justify;background:white;vertical-align:baseline&quot; class=&quot;rtejustify&quot;&gt;&lt;span style=&quot;font-size:10.5pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;color:#5F6C73;&lt;br/&gt;mso-ansi-language:EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9ObJYXWExvs5IfzbNgQo-57">
+          <mxGeometry y="30" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-63" target="9ObJYXWExvs5IfzbNgQo-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-63" target="9ObJYXWExvs5IfzbNgQo-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-63" value="если сформированный&lt;br&gt;запрос проходит валидацию" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3987.5" y="500" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-64" value="Ответ клиенту&amp;nbsp;&lt;br&gt;HTTP_400_BAD_REQUEST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4304.5" y="520" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-65" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="4218.25" y="524" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ObJYXWExvs5IfzbNgQo-67" target="9ObJYXWExvs5IfzbNgQo-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-67" value="Происходит отвязка на сервере Web Pay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3992.5" y="665" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-68" value="Полям wsb_recurring_token, wsb_card (Card number), wsb_exp (Exp date) присваевается значение None&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3992.5" y="790" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-72" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="3500" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-73" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="3363" y="561" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ObJYXWExvs5IfzbNgQo-74" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="4053" y="616" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
